@@ -12,13 +12,15 @@ $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
+$title-font-weight: 100;
+
 $spacing-unit:     30px;
 
-$text-color:       #bbbbbb;
-$background-color: #000000;
+$text-color:       #111;
+$background-color: #fdfdfd;
 $brand-color:      #2a7ae2;
 
-$grey-color:       #dddddd;
+$grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
@@ -43,11 +45,18 @@ $on-laptop:        800px;
     }
 }
 
+@mixin transition($value) {
+  -webkit-transition: $value;
+  -moz-transition: $value;
+  transition: $value;
+}
+
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",
         "layout",
-        "syntax-highlighting"
-;
+        "syntax-highlighting",
+        "launchpage"
+        ;
