@@ -1,8 +1,15 @@
 /**
- * Main site pages
+ * Landing page CSS
  */
+
 .site-tagline {
-	font-weight: $title-font-weight;
+	text-align: center;
+	color: $brand-color-dark;
+}
+
+.location {
+	font-weight: 300;
+	font-style: italic;
 	text-align: center;
 }
 
