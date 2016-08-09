@@ -24,7 +24,7 @@ title: Posts
             {{ post.excerpt | number_of_words }}
           {% endcapture %}
           {% if excerpt_words != content_words %}
-            <em><a href="{{ post.url | prepend: site.baseurl }}">→ Read more</a></em>
+            → <a class=read-more-link href="{{ post.url | prepend: site.baseurl }}">Read more</a>
           {% endif %}
         </p>
         </div>
