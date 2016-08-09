@@ -3,6 +3,8 @@
  */
 .highlight {
     background: #222;
+    color: #eeeeee;
+    border-radius: 1px;
     @extend %vertical-rhythm;
 
     .highlighter-rouge & {

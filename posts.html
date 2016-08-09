@@ -15,12 +15,23 @@ title: Posts
         </h2>
         <span class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</span>
         <div class="post-excerpt">
-          {{ post.excerpt }}
+        <p>
+          {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
+          {% capture content_words %}
+            {{ post.content | number_of_words }}
+          {% endcapture %}
+          {% capture excerpt_words %}
+            {{ post.excerpt | number_of_words }}
+          {% endcapture %}
+          {% if excerpt_words != content_words %}
+            <em><a href="{{ post.url | prepend: site.baseurl }}">→ Read more</a></em>
+          {% endif %}
+        </p>
         </div>
       </li>
     {% endfor %}
   </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <p class="rss-subscribe">→ subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>

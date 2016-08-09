@@ -2,18 +2,21 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 @charset "utf-8";
-@import 'https://fonts.googleapis.com/css?family=Raleway:300i,700';
+@import 'https://fonts.googleapis.com/css?family=Raleway:300i,900,900i|Source+Code+Pro:400,700';
 
 
 // Our variables
 $base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$base-font-size:   18px;
+$font-size-base:   18px;
 $base-font-weight: 400;
-$small-font-size:  $base-font-size * 0.875;
+$font-size-small:  $font-size-base * 0.875;
+$font-size-large: 22px;
 $base-line-height: 1.5;
 
 $title-font-family: 'Raleway', sans-serif;
-$title-font-weight: 700;
+$title-font-weight: 900;
+
+$code-font-family: 'Source Code Pro', monospace;
 
 $spacing-unit:     30px;
 

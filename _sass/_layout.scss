@@ -186,6 +186,7 @@
 
 .page-heading {
     font-size: 42px;
+    font-style: italic;
     text-align: center;
     font-weight: $title-font-weight;
 }
@@ -202,13 +203,15 @@
 }
 
 .post-meta {
-    font-size: $small-font-size;
+    font-family: $title-font-family;
+    font-style: italic;
+    font-size: $font-size-large;
     color: $grey-color;
 }
 
 .post-link {
     display: block;
-    font-size: 24px;
+    font-size: 32px;
 }
 
 .title-link {
@@ -217,6 +220,7 @@
 }
 
 .post-excerpt {
+    margin-top: $spacing-unit / 2;
     text-align: left;
 }
 
@@ -233,6 +237,8 @@
 .post-title {
     font-size: 42px;
     font-weight: $title-font-weight;
+    font-style: italic;
+    color: $brand-color-dark;
     line-height: 1;
 
     @include media-query($on-laptop) {
@@ -266,4 +272,8 @@
             font-size: 18px;
         }
     }
+}
+
+.rss-subscribe {
+  font-style: italic;
 }
