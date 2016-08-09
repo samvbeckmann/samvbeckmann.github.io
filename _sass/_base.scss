@@ -116,6 +116,10 @@ blockquote {
     > :last-child {
         margin-bottom: 0;
     }
+
+    @include media-query($on-laptop) {
+        font-size: 20px;
+    }
 }
 
 
@@ -129,7 +133,7 @@ code {
     font-size: 15px;
     color: $grey-color-light;
     border: 1px solid #222;
-    border-radius: 3px;
+    border-radius: 5px;
     background-color: #222;
 }
 
