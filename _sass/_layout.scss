@@ -297,6 +297,16 @@
           font-size: 18px;
       }
     }
+
+    .footnotes {
+      // margin-top: $spacing-unit;
+      border-top: 1px $grey-color-light solid;
+      font-size: 14px;
+
+      ol {
+        margin-top: $spacing-unit / 2;
+      }
+    }
 }
 
 .rss-subscribe {

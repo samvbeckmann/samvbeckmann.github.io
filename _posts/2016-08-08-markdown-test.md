@@ -41,9 +41,11 @@ public void codeBlock() {
 
 We have:
 
-- Lists
+- Lists[^2]
 - More items in Lists
     - Sublists!
+
+[^2]: With some footnote content.
 
 Plus, there's
 
