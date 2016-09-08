@@ -4,4 +4,4 @@ title: Résumé
 permalink: /resume/
 ---
 
-This page is coming soon!
+[PDF version of Resume](/documents/Resume.pdf)
