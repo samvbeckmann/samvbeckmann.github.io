@@ -4,4 +4,4 @@ title: Résumé
 permalink: /resume/
 ---
 
-[PDF version of Resume](/documents/Resume.pdf)
+[PDF version of Resume](/documents/resume.pdf)
