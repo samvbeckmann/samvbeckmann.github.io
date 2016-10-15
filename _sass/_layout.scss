@@ -307,6 +307,19 @@
         margin-top: $spacing-unit / 2;
       }
     }
+
+    .center-focus {
+      text-align: center;
+      font-size: 24px;
+      font-style: italic;
+    }
+
+    .indent {
+      font-size: 18px;
+      padding-left: $spacing-unit * 1.5;
+      border-left: 0px;
+    }
+
 }
 
 .rss-subscribe {

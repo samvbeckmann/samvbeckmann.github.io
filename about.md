@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+display: true
 permalink: /about/
 ---
 {% include headshot.html  size=50px %}

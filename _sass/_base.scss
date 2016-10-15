@@ -106,6 +106,7 @@ a {
  * Blockquotes
  */
 blockquote {
+
     color: $grey-color;
     border-left: 4px solid $grey-color-light;
     padding-left: $spacing-unit / 2;
@@ -120,6 +121,7 @@ blockquote {
     @include media-query($on-laptop) {
         font-size: 20px;
     }
+
 }
 
 
