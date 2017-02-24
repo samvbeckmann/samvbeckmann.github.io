@@ -14,7 +14,7 @@ permalink: /blog/:categories/:title
 url: https://samvbeckmann.com # the base hostname & protocol for your site
 enforce_ssl: samvbeckmann.com
 twitter_username: samvbeckmann
-github_username:  samvbeckmanns
+github_username:  samvbeckmann
 
 # Build settings
 markdown: kramdown
