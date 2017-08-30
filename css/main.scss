@@ -2,7 +2,7 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 @charset "utf-8";
-@import 'https://fonts.googleapis.com/css?family=Raleway:300i,900,900i|Source+Code+Pro:400,700|Source+Sans+Pro:400,400i,700,700i';
+@import 'https://fonts.googleapis.com/css?family=Raleway:400,300i,700|Source+Code+Pro:400,700|Source+Sans+Pro:400,400i,700,700i';
 
 
 // Our variables
@@ -11,7 +11,7 @@ $font-size-base:   18px;
 $base-font-weight: 400;
 $font-size-small:  $font-size-base * 0.875;
 $font-size-large: 22px;
-$base-line-height: 1.5;
+$base-line-height: 1.6;
 
 $title-font-family: 'Raleway', sans-serif;
 $title-font-weight: 900;
@@ -22,8 +22,16 @@ $spacing-unit:     30px;
 
 $text-color:       #111;
 $background-color: #fdfdfd;
+
+$dark-blue: rgb(1, 65, 105);
+$mid-blue: rgb(40, 116, 174);
+$light-blue: rgb(70, 166, 195);
+$light-green: rgb(179, 212, 125);
+
+
+
 $background-color-dark: #343434;
-$brand-color:      #ba72ed;
+$brand-color:      #ad4848;
 $brand-color-dark: darken($brand-color, 10%);
 $white-color: #ffffff;
 
@@ -65,6 +73,7 @@ $on-laptop:        800px;
         "base",
         "layout",
         "syntax-highlighting",
-        "launchpage",
+        "header",
+        "footer",
         "bigfoot-default"
         ;
