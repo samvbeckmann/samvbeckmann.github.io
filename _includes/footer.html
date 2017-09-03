@@ -1,11 +1,30 @@
 <footer class="site-footer">
 
-  <div class="wrapper">
+  <div id=footer-content>
+    <ul class="icon-links">
 
-    <div class="footer-col-wrapper">
-    </div>
-      {% include icon-links.html %}
+      <!-- GitHub link -->
+      <li class="icon-link-item"><a href="https://github.com/{{ site.github_username }}" class="icon-link"><i class="fa fa-github" aria-hidden="true"></i></a></li>
 
+      <!-- RSS link -->
+      <li class="icon-link-item"><a href="{{ "/feed.xml" | prepend: site.baseurl }}" class="icon-link"><i class="fa fa-rss" aria-hidden="true"></i></a></li>
+
+      <!-- Mail link -->
+      <li class="icon-link-item"><a href="mailto:{{ site.email }}" class="icon-link"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+
+      <!-- Twitter link -->
+      <li class="icon-link-item"><a href="https://twitter.com/{{ site.twitter_username }}" class="icon-link"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+
+      <!-- LinkedIn link -->
+      <li class="icon-link-item"><a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" class="icon-link"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+
+      <!-- Instagram link -->
+      <li class="icon-link-item"><a href="https://www.instagram.com/{{ site.instagram_username }}" class="icon-link"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+
+    </ul>
+
+    <span class="copywrite">© 2015-2017 Sam Beckmann</span>
   </div>
+
 
 </footer>
