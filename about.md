@@ -4,10 +4,10 @@ title: About
 permalink: /about/
 ---
 {% include headshot.html  size="200px" %}
-Hi! I'm Sam Beckmann, a computer science and mathematics student at the University of Tulsa.
+Hi! I'm Sam Beckmann, a computer science and mathematics student at [The University of Tulsa](https://utulsa.edu).
 Occasionally, I enjoy shouting random thoughts into the the void, so I made this website.
 If you want those thoughts packaged in convenient, bite-size pieces, follow me on [Twitter](http://www.twitter.com/samvbeckmann).
-You can usually find what I'm working on through my [GitHub page](http://www.github.com/samvbeckmann).
+You can usually find what I'm working on through my [GitHub page](http://www.github.com/samvbeckmann). I answer email at [sam@samvbeckmann.com](mailto:sam@samvbeckmann.com).
 
 I've interned as a software developer for [Amazon](https://amazon.jobs/feds), [Edward Jones](https://edwardjones.com), and [Bacterioscan](http://bacterioscan.com). You can find my full resume [here](/resume).
 
