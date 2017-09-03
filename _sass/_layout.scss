@@ -30,14 +30,19 @@
     color: $grey-color;
 }
 
-.post-link {
-    display: block;
-    font-size: 32px;
-}
-
 .title-link {
     margin-top: $spacing-unit;
     margin-bottom: 0;
+    display: block;
+    font-size: 32px;
+
+    @include media-query($on-laptop) {
+      font-size: 28px;
+    }
+
+    @include media-query($on-palm) {
+      font-size: 24px;
+    }
 }
 
 .post-excerpt {
@@ -61,51 +66,20 @@
 }
 
 .post-title {
-    font-size: 42px;
-    font-weight: $base-font-weight;
+    // font-size: 42px;
+    // font-weight: $base-font-weight;
     color: $light-blue;
     line-height: 1;
-
-    @include media-query($on-laptop) {
-        font-size: 36px;
-    }
+    //
+    // @include media-query($on-laptop) {
+    //     font-size: 36px;
+    // }
 }
 
 .post-content {
-    margin-bottom: $spacing-unit;
-
-    h1 {
-      font-size: 38px;
-
-      @include media-query($on-laptop) {
-          font-size: 32px;
-      }
-    }
-
-    h2 {
-        font-size: 28px;
-    }
-
-    h3 {
-        font-size: 24px;
-    }
-
-    h4 {
-        font-size: 20px;
-    }
-
-    h5 {
-      font-size: 18px;
-    }
-
-    h6 {
-      font-size: 18px;
-      font-weight: bold;
-      font-family: $base-font-family;
-    }
 
     .footnotes {
-      // margin-top: $spacing-unit;
+      margin-top: $spacing-unit;
       border-top: 1px $grey-color-light solid;
       font-size: 14px;
 
@@ -115,13 +89,10 @@
     }
 
     .boxed {
-        margin: 5px;
-        margin-bottom: 20px;
-        padding: 20px;
-        border: 1px $light-blue solid;
-        background-color: lighten($light-blue, 40%);
-        border-radius: 5px;
-        color: darken($brand-color-dark, 50%);
+      @extend %extended;
+      background-color: lighten($light-blue, 40%);
+      color: $text-color;
+      border-radius: 2px;
     }
 }
 
@@ -133,4 +104,11 @@
   border-radius: 5%;
   float: left;
   margin: 20px;
+}
+
+/**
+ * Wrapper
+ */
+.wrapper {
+  @extend %content-width;
 }

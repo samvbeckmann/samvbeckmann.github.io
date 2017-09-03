@@ -8,15 +8,27 @@ This post contains a test of various markdown features for website styling.
 
 # Heading 1
 
+Some text under the heading.
+
 ## Heading 2
+
+Some text under the heading.
 
 ### Heading 3
 
+Some text under the heading.
+
 #### Heading 4
+
+Some text under the heading.
 
 ##### Heading 5
 
+Some text under the heading.
+
 ###### Heading 6
+
+Some text under the heading.
 
 > This is a quote with **bold** and _italics_ and _**both**_.
 
