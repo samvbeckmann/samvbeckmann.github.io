@@ -7,8 +7,7 @@
 }
 
 .nav {
-  margin: auto;
-  max-width: calc(800px - (30px * 2));
+  @extend %content-width;
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
   color: $white-color;
@@ -47,7 +46,6 @@
   }
 
   @include media-query($on-palm) {
-    padding-left: 20px;
 
     #site-title {
       font-size: 22pt;

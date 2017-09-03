@@ -22,14 +22,13 @@
 }
 
 #footer-content {
-  margin: auto;
-  max-width: calc(800px - (30px * 2));
-  padding-top: 0.5rem;
-  padding-bottom: 1rem;
+  @extend %content-width;
+  padding-top: $spacing-unit / 4;
+  padding-bottom: $spacing-unit / 2;
 
   .copywrite {
     color: $grey-color;
-    font-size: 0.8rem;
+    font-size: $font-size-small;
   }
 
   .icon-links {
