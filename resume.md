@@ -44,9 +44,7 @@ _Summer 2015_
 ### Research
 I work under Dr. Sandip Sen in his artificial intelligence lab at the University of Tulsa.
 
-Extended abstract published at AAMAS 2107: ["Gesture-Based Control of Autonomous UAVs"](http://www.aamas2017.org/proceedings/pdfs/p1484.pdf)
-
-I also presented my research concerning greedy algorithms for the multi-armed bandit problem at the Oklahoma / Arkansas chapter of MAA conference in 2015.
+["Gesture-Based Control of Autonomous UAVs"](http://www.aamas2017.org/proceedings/pdfs/p1484.pdf) -- AAMAS 2017
 
 ### Projects [<i class="fa fa-link" aria-hidden="true"></i>](/projects)
 
