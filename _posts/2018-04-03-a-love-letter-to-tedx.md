@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  “A Love Letter to TEDx”
+title:  A Love Letter to TEDx
 date:   2018-04-03 12:00:00 -0600
 ---
 
